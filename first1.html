@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="https://www.w3schools.com/" target="_blank" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page title</title>
+  </head>
+  <body>
+    <h1>my first hading</h1>
+    <p>my first hading</p>
+
+    <table>
+      <caption>
+        savings
+      </caption>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$50</td>
+      </tr>
+    </table>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+    <div class="myDiv">
+      <h2>This is a heading in a div element</h2>
+      <p>This is some text in a div element.</p>
+    </div>
+
+    <p>This is some text outside the div element.</p>
+    <h1>The fieldset element</h1>
+
+    <form>
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" /><br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+      <h1>The footer element</h1>
+
+      <p>
+        Author: Hege Refsnes<br />
+        <a href="google .com search">google</a>
+        <hr>
+      </p>
+    </form>
+    <h1>The form element</h1>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <hr />
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <hr />
+    <h1>The iframe element</h1>
+
+    <iframe
+      src="https://www.w3schools.com"
+      title="W3Schools Free Online Web Tutorials"
+    >
+    </iframe>
+    <hr />
+
+    <h1>The input element</h1>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <hr />
+    <h1>The label element</h1>
+
+    <p>Click on one of the text labels to toggle the related radio button:</p>
+
+    <form action="/action_page.php">
+        <input type="radio" id="html" name="fav_language" value="HTML" />  
+      <label for="html">HTML</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />  
+      <label for="css">CSS</label><br />
+       
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+        <label for="javascript">JavaScript</label><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <hr />
+
+    <h1>The main element</h1>
+
+    <main>
+      <h1>Most Popular Browsers</h1>
+      <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+      <article>
+        <h2>Google Chrome</h2>
+        <p>
+          Google Chrome is a web browser developed by Google, released in 2008.
+          Chrome is the world's most popular web browser today!
+        </p>
+      </article>
+
+      <article>
+        <h2>Mozilla Firefox</h2>
+        <p>
+          Mozilla Firefox is an open-source web browser developed by Mozilla.
+          Firefox has been the second most popular web browser since January,
+          2018.
+        </p>
+      </article>
+
+      <article>
+        <h2>Microsoft Edge</h2>
+        <p>
+          Microsoft Edge is a web browser developed by Microsoft, released in
+          2015. Microsoft Edge replaced Internet Explorer.
+        </p>
+      </article>
+    </main>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+    <hr />
+
+    <h1>The textarea element</h1>
+
+    <form action="/action_page.php">
+      <p><label for="w3review">Review of W3Schools:</label></p>
+      <textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn h
+ow to make a website. They offer free tutorials in all web development technologies.</textarea
+      >
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <hr />
+    <p>h<sub>2</sub>o</p>
+    <p>3 <sub>2</sub>=9</p>
+    <hr />
+    <strong>This text is important!</strong>
+
+    <p>
+      The optgroup tag is used to group related options in a drop-down list:
+    </p>
+
+    <form action="/action_page.php">
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars">
+        <optgroup label="Swedish Cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </optgroup>
+      </select>
+      <br /><br />
+      <input type="submit" value="Submit" />
+
+      <hr />
+
+      <pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre
+      >
+    </form>
+    <h1>The q element</h1>
+    <p>
+      WWF's goal is to:
+      <q>Build a future where people live in harmony with nature.</q>
+      We hope they succeed.
+    </p>
+    <search>
+      <form>
+        <input name="fsrch" id="fsrch" placeholder="Search W3Schools" />
+      </form>
+    </search>
+    <hr />
+    <details>
+      <summary>Epcot Center</summary>
+      <p>
+        Epcot is a theme park at Walt Disney World Resort featuring exciting
+        attractions, international pavilions, award-winning fireworks and
+        seasonal special events.
+      </p>
+    </details>
+  </body>
+</html>
