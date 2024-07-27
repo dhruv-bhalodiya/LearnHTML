@@ -1,0 +1,17 @@
+what is html ?
+html stands for Hyper Text Markup Language
+html is the standard markup language for creating Web pages
+html describes the structure of a Web page
+html consists of a series of elements
+html elements tell the browser how to display the content
+
+what is elements ?
+elements is define by start tag ,some contant and end tag
+elements is everything from the start tag to end tag
+
+what is use of browser
+The purpose of a web browser is to read HTML documents and display them correctly.
+(crome,safari,edeg,opera,firefox )
+the browser does not display tag
+ 
+ 
